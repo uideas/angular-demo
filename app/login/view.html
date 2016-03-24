@@ -1,0 +1,13 @@
+<div ng-controller="loginController">
+	<form action="javascript:">
+		<div>
+			<h2>Hello, please fill in this form to login the system.</h2>
+			<label for="name">User Name</label>
+			<input type="text" id="name" ng-value="user.name" name="userName">
+			<br>
+			<label for="name">Verify Code</label>
+			<input type="text" ng-value="user.verifyCode" name="verifyCode">
+			<input type="button" ng-click="submitForm($event.target)" value="Submit">
+		</div>
+	</form>
+</div>
