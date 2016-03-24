@@ -1,0 +1,11 @@
+{
+	"msg" : "Response Success",
+	"code" : "SUCCESS",
+	"data" : [
+		{
+			"name" : "Jone",
+			"sex" : "male",
+			"age" : "18"
+		}
+	]
+}
