@@ -11,11 +11,11 @@
 			redirectTo: '/home'
 		})
 		.when('/home', {
-			templateUrl: 'view/funds/index.jsp',
+			templateUrl: 'app/login/view.html',
 			controller: 'homeCtrl'
 		})
 		.when('/login', {
-			templateUrl: 'view/member/login.jsp',
+			templateUrl: 'app/home/view.html',
 			controller: 'loginCtrl'
 		})
 		.otherwise({

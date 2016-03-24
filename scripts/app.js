@@ -15,10 +15,10 @@
 			redirectTo: '/home'
 		})
 		.when('/home', {
-			templateUrl: 'view/funds/index.jsp'
+			templateUrl: 'app/home/view.html'
 		})
 		.when('/login', {
-			templateUrl: 'view/member/login.jsp'
+			templateUrl: 'app/login/view.html'
 		})
 		.otherwise({
 			redirectTo: '/login'

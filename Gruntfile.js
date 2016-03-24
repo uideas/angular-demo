@@ -1,3 +1,4 @@
+// Grunt configuration.
 module.exports = function(grunt) {
   grunt.initConfig({
     connect: {
